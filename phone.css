@@ -1,0 +1,205 @@
+@media only screen and (max-width:1150px) {
+
+    .container1 {
+        width: 100%;
+        height: 120vh;
+    }
+
+    .sm-text {
+        width: 100%;
+    }
+
+
+    .resp-location {
+        display: flex;
+
+    }
+
+    .boxes1 {
+        display: grid;
+    }
+
+    .boxes2 {
+        display: grid;
+    }
+
+
+
+    .container3 {
+        flex-direction: column;
+
+
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .images {
+        height: 170vh;
+        width: 100%;
+        position: relative;
+        right: 10px;
+        /* display: inline-block; */
+    }
+
+
+
+
+
+
+
+
+
+    .images1 {
+        display: grid;
+        width: 100%;
+
+        /* margin: auto; */
+    }
+
+    .images2 {
+        display: none;
+    }
+
+
+    .single-height {
+        margin-left: 10px;
+        width: 100%;
+        height: 150px;
+        position: relative;
+        left: 10px;
+
+    }
+
+    .flex-image {
+        width: 100%;
+
+
+    }
+
+    .width-image {
+        width: 100%;
+        height: 150px;
+        margin: 10px 10px;
+
+    }
+
+    .container4 {
+        width: 100%;
+        height: 70vh;
+    }
+
+
+    .form {
+        max-width: 70%;
+    }
+
+    .form input {
+        font-size: 15px;
+    }
+
+    .form option {
+        font-size: 14px;
+    }
+
+
+
+}
+
+
+/* Media querry */
+/* 900px */
+
+
+
+@media only screen and (max-width: 1050px) {
+    .container1 {
+        flex-direction: column;
+        height: 120vh;
+        width: 100%;
+    }
+
+    .centernav {
+        display: none;
+
+    }
+
+
+    .leftnav {
+        display: none;
+
+    }
+
+
+    .logo {
+        width: 300px;
+    }
+
+    .heading1 {
+        margin: auto;
+        width: 100%;
+        /* margin-left: 106px; */
+        display: grid;
+
+
+
+    }
+
+    .big-text {
+
+        margin-right: 30px;
+        /* font-size: 50px; */
+    }
+
+    .small-text {
+        /* margin-right: 45px; */
+    }
+
+    .btn {
+
+        margin-top: 105px;
+        /* margin: auto; */
+    }
+
+
+    .video {
+        width: 100%;
+
+    }
+
+    .video video {
+
+        margin: auto;
+    }
+
+    .container5 {
+        max-width: 100%;
+        display: grid;
+    }
+
+
+    .contact {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .personel {
+        margin: 10px 3px;
+    }
+
+    .personel a {
+        font-size: 24px;
+    }
+
+    .down-icon {
+        position: relative;
+        top: 30px;
+    }
+
+
+
+
+
+
+
+}
